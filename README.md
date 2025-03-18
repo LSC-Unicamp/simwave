@@ -11,7 +11,7 @@ For further information on the `simwave` design and implementation, please see t
 
 For installation, `simwave` needs only scipy, numpy, and segyio. See `requirements.txt`. If you wish to plot, then `matplotlib` is additionally required. `simwave` compiles finite difference stencils at run time in C for performance and thus requires a working C compiler.
 
-`git clone https://github.com/HPCSys-Lab/simwave.git`
+`git clone https://github.com/LSC-Unicamp/simwave.git`
 
 `cd simwave`
 
@@ -26,7 +26,7 @@ To contribute to the software:
 
 1. [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) the repository.
 2. Clone the forked repository, add your contributions and push the changes to your fork.
-3. Create a [Pull request](https://github.com/HPCSys-Lab/simwave/pulls)
+3. Create a [Pull request](https://github.com/LSC-Unicamp/simwave/pulls)
 
 Before creating the pull request, make sure that the tests pass by running
 ```
@@ -43,11 +43,11 @@ Some things that will increase the chance that your pull request is accepted:
 Problems?
 ==========
 
-If something isn't working as it should or you'd like to recommend a new addition/feature to the software, please let us know by starting an issue through the [issues](https://github.com/HPCSys-Lab/pywave/issues) tab. I'll try to get to it as soon as possible.
+If something isn't working as it should or you'd like to recommend a new addition/feature to the software, please let us know by starting an issue through the [issues](https://github.com/LSC-Unicamp/simwave/issues) tab. I'll try to get to it as soon as possible.
 
 Examples
 ========
-This repository contains several examples that can be found here [here](https://github.com/HPCSys-Lab/simwave/tree/master/examples).
+This repository contains several examples that can be found here [here](https://github.com/LSC-Unicamp/simwave/tree/master/examples).
 
 Basic acoustic cases can be run as follows:
 
@@ -66,7 +66,7 @@ In all cases, you can choose the compiler options according to the type of execu
 Tutorial
 ========
 
-Simulation with `simwave` is simple and can be accomplished in a dozen or so lines of Python! Jupyter notebooks with tutorials can be found here [here](https://github.com/HPCSys-Lab/simwave/tree/master/tutorial).
+Simulation with `simwave` is simple and can be accomplished in a dozen or so lines of Python! Jupyter notebooks with tutorials can be found here [here](https://github.com/LSC-Unicamp/simwave/tree/master/tutorial).
 
 Here we show how to simulate the constant density acoustic wave equation on a simple two layer velocity model.
 ```python
