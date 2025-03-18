@@ -47,6 +47,24 @@ If something isn't working as it should or you'd like to recommend a new additio
 
 Examples
 ========
+This repository contains several examples that can be found here [here](https://github.com/HPCSys-Lab/simwave/tree/master/examples).
+
+Basic acoustic cases can be run as follows:
+
++ 2D: `python examples/acoustic_2D.py`
++ 2D with density model: `python examples/acoustic_2D_density.py`
++ 3D: `python examples/acoustic_3D.py`
++ 3D with density model: `python examples/acoustic_3D_density.py`
+
+In all cases, you can choose the compiler options according to the type of execution you want to do. To change this, you should alter the `selected_compiler` variable. The available options are as follows:
+
++ Sequential: compiler_options['c']
++ OpenMP (CPU): compiler_options['cpu_openmp']
++ OpenMP (with GPU): compiler_options['gpu_openmp'] - be sure to change the -march flag according to your GPU's compute capabilities
++ OpenACC (with GPU): compiler_options['gpu_openacc']
+
+Tutorial
+========
 
 Simulation with `simwave` is simple and can be accomplished in a dozen or so lines of Python! Jupyter notebooks with tutorials can be found here [here](https://github.com/HPCSys-Lab/simwave/tree/master/tutorial).
 
